@@ -1,18 +1,15 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-html, body{
+html,
+body {
   height: 100%;
-  
+
 }
 
-body{
- 
-}
-
-.wrapper{
+.wrapper {
   width: 40%;
   height: 30%;
   display: table;
@@ -33,15 +30,15 @@ body{
   background-color: burlywood;
 }
 
-@media(min-width: 768px){
-  .wrapper{
-     width: 30%;
+@media(min-width: 768px) {
+  .wrapper {
+    width: 30%;
     height: 60%;
-    margin-top: 15%;
-    margin-left: 25%;
+    margin-top: 10%;
+    margin-left: 35%;
   }
-  
-  #clock{
+
+  #clock {
     font-size: 4rem;
   }
 }
