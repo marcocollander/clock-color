@@ -8,12 +8,40 @@ html, body{
   
 }
 
+body{
+ 
+}
+
+.wrapper{
+  width: 40%;
+  height: 30%;
+  display: table;
+  margin-top: 40%;
+  margin-left: 30%
+}
+
 #clock {
-  position: relative;
+  display: table-cell;
+  vertical-align: middle;
   text-align: center;
-  top: 50%;
   font-family: 'Pontano Sans', sans-serif;
-  font-size: 5rem;
-  margin-top: -5rem;
+  font-size: 2rem;
   color: white;
+  width: 40%;
+  border: 5px solid brown;
+  border-radius: 9999%;
+  background-color: burlywood;
+}
+
+@media(min-width: 768px){
+  .wrapper{
+     width: 30%;
+    height: 60%;
+    margin-top: 15%;
+    margin-left: 25%;
+  }
+  
+  #clock{
+    font-size: 4rem;
+  }
 }
