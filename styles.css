@@ -23,11 +23,10 @@ body {
   text-align: center;
   font-family: 'Pontano Sans', sans-serif;
   font-size: 2rem;
-  color: white;
   width: 40%;
   border: 5px solid brown;
   border-radius: 9999%;
-  background-color: burlywood;
+  background-color: yellow;
 }
 
 @media(min-width: 768px) {
